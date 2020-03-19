@@ -7,13 +7,23 @@ import { HomeComponent } from './Components/home/home.component';
 import { FormsModule } from '@angular/forms';
 import { FormateurComponent } from './Components/formateur/formateur.component';
 import { TaskComponent } from './Components/task/task.component';
+import { LoginComponent } from './Components/login/login.component';
+import { DeposerComponent } from './Components/deposer/deposer.component';
+import { HeaderComponent } from './Components/header/header.component';
+import { FooterComponent } from './Components/footer/footer.component';
+import { AdminHomeComponent } from './Components/admin-home/admin-home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     FormateurComponent,
-    TaskComponent
+    TaskComponent,
+    LoginComponent,
+    DeposerComponent,
+    HeaderComponent,
+    FooterComponent,
+    AdminHomeComponent
   ],
   imports: [
     BrowserModule,

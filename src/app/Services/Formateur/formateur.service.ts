@@ -8,14 +8,9 @@ import { Formateur } from 'src/app/Models/Formateur';
 })
 export class FormateurService {
   
-  headers:Headers = new Headers();
-  server ="http://127.0.0.1:8080/PFF/public/" ;
+  server = "http://localhost:8000/";
 
-  constructor(private http:HttpClient) { 
-    this.headers.append('enctype','multipart/form-data');
-    this.headers.append('Content-Type','application/json');
-    this.headers.append('X-Requested-With','XMLHttpRequest');
-  }
+  constructor(private http:HttpClient) { }
 
   addFormateur(f:Formateur):Observable<Formateur>{
     return this.http.post<Formateur>(this.server+'add',new Formateur(f.nom,f.prenom,f.dateN,f.tel,f.reb));
