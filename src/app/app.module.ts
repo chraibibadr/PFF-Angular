@@ -12,6 +12,8 @@ import { DeposerComponent } from './Components/deposer/deposer.component';
 import { HeaderComponent } from './Components/header/header.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { AdminHomeComponent } from './Components/admin-home/admin-home.component';
+import { FilesFormateurComponent } from './Components/deposer/files-formateur/files-formateur.component';
+import { GenerateLoginPassComponent } from './Components/deposer/generate-login-pass/generate-login-pass.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { AdminHomeComponent } from './Components/admin-home/admin-home.component
     DeposerComponent,
     HeaderComponent,
     FooterComponent,
-    AdminHomeComponent
+    AdminHomeComponent,
+    FilesFormateurComponent,
+    GenerateLoginPassComponent
   ],
   imports: [
     BrowserModule,

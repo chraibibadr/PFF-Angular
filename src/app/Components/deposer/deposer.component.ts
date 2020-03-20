@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router'
 
 @Component({
   selector: 'app-deposer',
@@ -7,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DeposerComponent implements OnInit {
 
-  constructor() { }
+
+  constructor(private router : Router) { }
 
   ngOnInit() {
   }
 
+//*******************************Methode Next pour passer au depot des pieces jointes***************************
+  next(e){
+    console.log(e);
+    if(e.valid)
+      this.router.navigateByUrl("depotFiles");
+    else
+      alert('Merci de Remplir tous les Informations Pour Continuer !!');
+  }
+  //************************************************BISSI***********************************************
 }

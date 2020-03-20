@@ -1,0 +1,48 @@
+<!--****************************Header Here******************************-->
+<div class="container">
+      <h1 class='text-center'><!--Engagement des Formateurs Vacataires à ISTA NTIC SYBA --></h1>
+</div>
+<!--****************************Formulaire depot des pieces Jointes de vacataire******************************-->
+<div class="container">
+      <div class="row">
+            <div class="col-lg-8 col-md-10 col-sm-12 mx-auto mt-4 mb-4 ">
+                  <div class="card card-header bg-success text-center text-white">
+                        <h3 class="card-title">Dépot des Pieces Jointes</h3>
+                  </div>
+            <form class="was-validated" #formateur="ngForm" (ngSubmit)="generer(formateur)">
+                  <div class="card card-body">
+                              <div class="form-group">
+                                    <label for="idCv">Cv :</label>
+                                    <input name="cv" [(ngModel)]="cv" type="file" class="form-control" id="idCv" required >        
+                              </div>
+                              <div class="form-group">
+                                    <label for="idDiplome">Diplome :</label>
+                                    <input name="diplome" [(ngModel)]="diplome" type="file" class="form-control" id="idDiplome" required >        
+                              </div>
+                              <div class="form-group">
+                                    <label for="idAt">Attestation de Travail :</label>
+                                    <input name="at" [(ngModel)]="attestationTravail" type="file" class="form-control" id="idAt" required >        
+                              </div>
+                              <div class="form-group">
+                                    <label for="idAs">Attestation de Salaire :</label>
+                                    <input name="as" [(ngModel)]="attestationSalaire" type="file" class="form-control" id="idAs" required >        
+                              </div>
+                              <div class="form-group">
+                                    <label for="idAutorisation">Autorisation :</label>
+                                    <select class="custom-select" name="autorisation" id="idAutorisation" required>
+                                      <option value="">Ouvrir pour  Votre type d'Autorisation </option>
+                                      <option value="Libre">Libre</option>
+                                      <option value="Privé">Privé</option>
+                                    </select>
+                              </div>
+                              <div class="card-footer">
+                                      <div class="form-group">
+                                          <button type="submit" class="btn btn-success form-control"><b>Confirmer</b>&nbsp;<i class="fas fa-clipboard-check"></i></button>
+                                      </div>
+                              </div>
+                        </div>
+                  </form>
+            </div>
+      </div>
+</div>
+<!---****************************************BISSI******************************************************-->
