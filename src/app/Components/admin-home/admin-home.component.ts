@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdminHomeComponent implements OnInit {
 
+  isOn : boolean = false
   constructor() { }
 
   ngOnInit() {
   }
 
+  toggleNavbar()
+  {
+    this.isOn = !this.isOn
+  }
 }
