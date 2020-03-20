@@ -1,24 +1,39 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <img style="width: 150px;" class="navbar-brand" src="../assets/Images/Logo.png">&nbsp;
-    <button class="navbar-toggler" (click)="toggleNavbar()" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" [class.show]="isOn" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" routerLink="home">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="login">Login</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="deposer">Deposer dossier</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="task">Contact</a>
-        </li>
-      </ul>
-    
+<header>
+  <div class="header-img bg-dark">
+    <div class="container">
+      <div class="main-header clear">
+        <div class="logo">
+          <a routerLink="home">
+            ofppt
+            <span>Ntic SYBA</span>
+          </a>
+        </div>
+        <div class="prj-nav">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+              <button class="navbar-toggler" (click)="toggleNavbar()" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse resp-nav" [class.show]="isOn" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" routerLink="home" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" routerLink="task" routerLinkActive="active"> Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link prj-login" routerLink="login" routerLinkActive="active">Login</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+        </div>
+      </div>
     </div>
-  </nav>
+  </div>
+</header>
+
+
+
+

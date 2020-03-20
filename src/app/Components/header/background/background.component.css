@@ -1,0 +1,116 @@
+/*
+    Base 
+*/
+img{
+    width: 100%;
+    display: block;
+}
+/*
+    Thumbnail
+*/
+.img-thumb{
+    position: relative;
+}
+.img-thumb:before{
+    position: absolute;
+    content: '';
+    background-color: #343a40ed;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+.prj-title__depos{
+    position: absolute;
+    top: 30%;
+    left: 32%;
+}
+.prj-title__depos h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-bottom: 11%;
+}
+button.btn-depos{
+    background-color: #3C6E7F;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px #3C6E7F;
+    border: 2px solid #3C6E7F;
+    width: 100%;
+    cursor: pointer;
+}
+/*
+    Btn deposer
+*/
+.img-thumb .prj-title__depos .prj-depos{
+    color: #dfdaed;
+    font-size: 19px;
+    font-family: sans-serif;
+    /*text-transform: uppercase;*/
+}
+.img-thumb .prj-title__depos .prj-depos{
+    color: #dfdaed;
+    font-size: 19px;
+    font-family: sans-serif;
+    /*text-transform: uppercase;*/
+}
+/*
+    btn Deposer hover
+*/
+.img-thumb .prj-title__depos .btn-depos:hover{
+    color: #3C6E7F;
+    background-color: #dfdaed00;
+}
+/*
+    Responsive
+*/
+@media (max-width:1024px){
+    .prj-title__depos{
+        left: 32%;
+        top: 20%;
+    }
+    .prj-title__depos h1{
+        font-size: 40px;
+    }
+}
+@media (max-width:760px){
+    .prj-title__depos{
+        left: 26%;
+    }
+    .prj-title__depos h1{
+        font-size: 34px;
+    }
+}
+@media (max-width:480px){
+    .prj-title__depos {
+        left: 31%;
+        top: 14%;
+    }
+    .prj-title__depos h1{
+        font-size: 20px;
+    }
+    button.btn-depos{
+        padding: 1%;
+    }
+    button.btn-depos .nav-link{
+        padding: 2%;
+    }
+}
+@media (max-width:580px){
+    .prj-title__depos{
+        left: 23%;
+        top: 9%;
+    }
+    button.btn-depos a{
+        font-size: 16px;
+    }
+}
+@media (max-width:480px){
+    .prj-title__depos{
+        left: 28%;
+        top: 14%;
+    }
+    .prj-title__depos h1{
+        margin-bottom: 9%;
+    }
+}
