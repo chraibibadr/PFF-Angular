@@ -12,6 +12,7 @@ import { DeposerComponent } from './Components/deposer/deposer.component';
 import { HeaderComponent } from './Components/header/header.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { AdminHomeComponent } from './Components/admin-home/admin-home.component';
+import { BackgroundComponent } from './Components/header/background/background.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { AdminHomeComponent } from './Components/admin-home/admin-home.component
     DeposerComponent,
     HeaderComponent,
     FooterComponent,
-    AdminHomeComponent
+    AdminHomeComponent,
+    BackgroundComponent
   ],
   imports: [
     BrowserModule,
