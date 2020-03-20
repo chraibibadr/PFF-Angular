@@ -5,9 +5,11 @@ import { FormateurComponent } from './Components/formateur/formateur.component';
 import { TaskComponent } from './Components/task/task.component';
 import { LoginComponent } from './Components/login/login.component';
 import { DeposerComponent } from './Components/deposer/deposer.component';
+
 import { FilesFormateurComponent } from './Components/deposer/files-formateur/files-formateur.component';
 import { GenerateLoginPassComponent } from './Components/deposer/generate-login-pass/generate-login-pass.component';
 
+import { AdminHomeComponent } from './Components/admin-home/admin-home.component';
 
 const routes: Routes = [
   {path:"",redirectTo:'home',pathMatch:'full'},
@@ -21,6 +23,7 @@ const routes: Routes = [
   { path:'autoGenerate',component:GenerateLoginPassComponent }
   //***************************************************************************
   
+  {path:'admin-home',component:AdminHomeComponent},
   
 ];
 
