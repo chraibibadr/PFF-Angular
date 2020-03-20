@@ -34,7 +34,6 @@ import { ConsultVacatureComponent } from './Components/admin-home/consult-vacatu
     FilesFormateurComponent,
     GenerateLoginPassComponent,
     GuestHomeComponent,
-    GuestHomeComponent,
     NouveauDossierComponent,
     ConsultVacatureComponent
   ],
