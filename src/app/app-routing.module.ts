@@ -20,8 +20,8 @@ const routes: Routes = [
   //***********************Routes Li dar Bissii***********************************
   { path:'deposer',component:DeposerComponent },
   { path:'depotFiles',component:FilesFormateurComponent },
-  { path:'autoGenerate',component:GenerateLoginPassComponent }
-  //***************************************************************************
+  { path:'autoGenerate',component:GenerateLoginPassComponent },
+  //**************************MAINE************************************
   
   {path:'admin-home',component:AdminHomeComponent},
   
