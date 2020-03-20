@@ -10,7 +10,11 @@ import { FilesFormateurComponent } from './Components/deposer/files-formateur/fi
 import { GenerateLoginPassComponent } from './Components/deposer/generate-login-pass/generate-login-pass.component';
 
 import { AdminHomeComponent } from './Components/admin-home/admin-home.component';
+<<<<<<< HEAD
 import { GuestHomeComponent } from './Components/guest-home/guest-home.component';
+=======
+import { NouveauDossierComponent } from './Components/admin-home/nouveau-dossier/nouveau-dossier.component';
+>>>>>>> cc178d83c52ed7bae6030c219d25743969607ddf
 
 const routes: Routes = [
   //********************* Admin Routes *******************************************
@@ -28,6 +32,7 @@ const routes: Routes = [
 
   //**************************MAINE************************************
   {path:'admin-home',component:AdminHomeComponent},
+  {path:'nouveau-dossier',component:NouveauDossierComponent},
   
 ];
 
