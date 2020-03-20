@@ -10,10 +10,10 @@
 
 
 <nav class="navbar navbar-expand-lg "style="background-color: #595959;">
-    <a class="navbar-brand " href="admin-home">welcome</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <a class="navbar-brand " href="admin-home">welcome</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
     <div class="specer"></div>
 
@@ -44,3 +44,15 @@
  
 </nav>
   </nav>
+  <div class="specer"></div>
+
+  
+  <div class="collapse navbar-collapse" [class.show]="isOn" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ">
+      <a class="nav-item nav-link" href="nouveau-dossier">consultation nouveau dossier déposé</a>
+      <a class="nav-item nav-link" href="consult-vacature">consultation vacature</a>
+    </div>
+  </div>
+  </div>
+</nav>
