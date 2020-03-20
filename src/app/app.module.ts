@@ -12,15 +12,12 @@ import { DeposerComponent } from './Components/deposer/deposer.component';
 import { HeaderComponent } from './Components/header/header.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { AdminHomeComponent } from './Components/admin-home/admin-home.component';
-<<<<<<< HEAD
 import { BackgroundComponent } from './Components/header/background/background.component';
-=======
 import { FilesFormateurComponent } from './Components/deposer/files-formateur/files-formateur.component';
 import { GenerateLoginPassComponent } from './Components/deposer/generate-login-pass/generate-login-pass.component';
 import { GuestHomeComponent } from './Components/guest-home/guest-home.component';
 import { NouveauDossierComponent } from './Components/admin-home/nouveau-dossier/nouveau-dossier.component';
 import { ConsultVacatureComponent } from './Components/admin-home/consult-vacature/consult-vacature.component';
->>>>>>> 569249ed74e84465eb07753e24f0593d010a759a
 
 @NgModule({
   declarations: [
@@ -33,16 +30,13 @@ import { ConsultVacatureComponent } from './Components/admin-home/consult-vacatu
     HeaderComponent,
     FooterComponent,
     AdminHomeComponent,
-<<<<<<< HEAD
-    BackgroundComponent
-=======
+    BackgroundComponent,
     FilesFormateurComponent,
     GenerateLoginPassComponent,
     GuestHomeComponent,
     GuestHomeComponent,
     NouveauDossierComponent,
-    ConsultVacatureComponent
->>>>>>> 569249ed74e84465eb07753e24f0593d010a759a
+    ConsultVacatureComponent,
   ],
   imports: [
     BrowserModule,
