@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DeposerComponent } from './deposer.component';
+import { NouveauDossierComponent } from './nouveau-dossier.component';
 
-describe('DeposerComponent', () => {
-  let component: DeposerComponent;
-  let fixture: ComponentFixture<DeposerComponent>;
+describe('NouveauDossierComponent', () => {
+  let component: NouveauDossierComponent;
+  let fixture: ComponentFixture<NouveauDossierComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DeposerComponent ]
+      declarations: [ NouveauDossierComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DeposerComponent);
+    fixture = TestBed.createComponent(NouveauDossierComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
