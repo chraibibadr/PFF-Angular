@@ -9,6 +9,7 @@ img{
     Thumbnail
 */
 .img-thumb{
+    margin-top: -48px;
     position: relative;
 }
 .img-thumb:before{
