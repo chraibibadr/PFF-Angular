@@ -1,12 +1,24 @@
 <div class="container">
+      <div class="row">
+            <div class="col-lg-8 mx-auto">
+                  <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary" >Nouveaux Dossier</button>
+                        <button type="button" class="btn btn-secondary" >Consulter Vacataire</button>
+                        <button type="button" class="btn btn-secondary" >Profile</button>
+                  </div>
+            </div>
+      </div>
+</div>
+<div class="container">
     <div class="row">
           <div class="col-lg-8 mx-auto">
-                <div class="alert alert-dark div"  role="alert">
-                      <legend class="text-dark ">Votre dossier est en train de Validation ...... Merci de Patienter !!</legend>
-                </div>
-                <div>
-                      <button class="btn-primary">LogOut</button>
+            <div class="alert alert-dark div"  role="alert">
+                  <legend class="text-dark ">Votre dossier est en train de Validation ...... Merci de Patienter !!</legend>
             </div>
+            <div>
+              <button type="button" class="btn btn-lg btn-primary" routerLink="/login">LogOut</button>
+            </div>
+                <router-outlet></router-outlet>
           </div>
     </div>
 </div>
