@@ -9,7 +9,7 @@
                   <div class="card card-header bg-success text-center text-white">
                         <h3 class="card-title">Dépot des Pieces Jointes</h3>
                   </div>
-            <form class="was-validated" #formateur="ngForm" (ngSubmit)="generer(formateur)">
+            <form [class.was-validated]="touched" #formateur="ngForm" (ngSubmit)="generer(formateur)">
                   <div class="card card-body">
                               <div class="form-group">
                                     <label for="idCv">Cv :</label>
@@ -37,8 +37,15 @@
                               </div>
                               <div class="card-footer">
                                       <div class="form-group">
-                                          <button type="submit" class="btn btn-success form-control"><b>Confirmer</b>&nbsp;<i class="fas fa-clipboard-check"></i></button>
-                                      </div>
+                                            <div class="row">
+                                                  <div class="col">
+                                                      <button (click)="back()" type="button" class="btn btn-success form-control"><i class="fas fa-backward"></i>&nbsp;<b>Précédent</b></button>            
+                                                  </div>
+                                                  <div class="col">
+                                                      <button type="submit" class="btn btn-success form-control"><b>Confirmer</b>&nbsp;<i class="fas fa-clipboard-check"></i></button>
+                                                  </div>
+                                            </div>
+                                       </div>
                               </div>
                         </div>
                   </form>
