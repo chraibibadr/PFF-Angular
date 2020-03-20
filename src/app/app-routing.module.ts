@@ -29,7 +29,7 @@ const routes: Routes = [
   //**************************MAINE************************************
   {path:'admin-home',component:AdminHomeComponent},
   {path:'nouveau-dossier',component:NouveauDossierComponent},
-  {path:'consult-vacature',component:ConsultVacatureComponent},
+  {path:'consult-vacature',component:ConsultVacatureComponent}
   
 ];
 @NgModule({
