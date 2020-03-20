@@ -10,20 +10,18 @@ import { GenerateLoginPassComponent } from './Components/deposer/generate-login-
 import { AdminHomeComponent } from './Components/admin-home/admin-home.component';
 
 const routes: Routes = [
-  {path:"",redirectTo:'home',pathMatch:'full'},
-  {path:"home",component:HomeComponent},
+  {path:'',redirectTo:'home',pathMatch:'full'},
+  {path:'home',component:HomeComponent},
   {path:'formateur',component:FormateurComponent},
   {path:'task',component:TaskComponent},
   {path:'login',component:LoginComponent},
-  //***********************Routes Bissii***********************************
+  //*********************** ***BISSI ************************************
   { path:'deposer',component:DeposerComponent },
   { path:'depotFiles',component:FilesFormateurComponent },
   { path:'autoGenerate',component:GenerateLoginPassComponent },
-  //***************************************************************************
+  //**************************MAINE************************************
   {path:'admin-home',component:AdminHomeComponent}
-
 ];
-
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
