@@ -32,11 +32,11 @@ img{
     margin-bottom: 11%;
 }
 button.btn-depos{
-    background-color: #3C6E7F;
+    background-color: #F2490C;
     border: 0;
     border-radius: 5px;
-    box-shadow: 0px 1px 2px #3C6E7F;
-    border: 2px solid #3C6E7F;
+    box-shadow: 0px 1px 2px #F2490C;
+    border: 2px solid #F2490C;
     width: 100%;
     cursor: pointer;
 }
@@ -59,7 +59,7 @@ button.btn-depos{
     btn Deposer hover
 */
 .img-thumb .prj-title__depos .btn-depos:hover{
-    color: #3C6E7F;
+    color: #F2490C;
     background-color: #dfdaed00;
 }
 /*
