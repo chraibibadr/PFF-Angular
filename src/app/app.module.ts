@@ -12,6 +12,7 @@ import { DeposerComponent } from './Components/deposer/deposer.component';
 import { HeaderComponent } from './Components/header/header.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { AdminHomeComponent } from './Components/admin-home/admin-home.component';
+import { BackgroundComponent } from './Components/header/background/background.component';
 import { FilesFormateurComponent } from './Components/deposer/files-formateur/files-formateur.component';
 import { GenerateLoginPassComponent } from './Components/deposer/generate-login-pass/generate-login-pass.component';
 import { GuestHomeComponent } from './Components/guest-home/guest-home.component';
@@ -29,9 +30,9 @@ import { ConsultVacatureComponent } from './Components/admin-home/consult-vacatu
     HeaderComponent,
     FooterComponent,
     AdminHomeComponent,
+    BackgroundComponent,
     FilesFormateurComponent,
     GenerateLoginPassComponent,
-    GuestHomeComponent,
     GuestHomeComponent,
     NouveauDossierComponent,
     ConsultVacatureComponent
