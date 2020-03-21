@@ -74,8 +74,8 @@ ul.social-footer2 {	margin: 0;padding: 0;	width: auto;}
 ul.social-footer2 li {display: inline-block;padding: 0;}
 ul.social-footer2 li a:hover {background-color:none;}
 ul.social-footer2 li a {display: block;	height:30px;width: 30px;text-align: center; margin-right: 15px;}
-.btn{background-color: #ff8d1e; color:#fff;}
-.btn:hover, .btn:focus, .btn.active {background: #4b92dc;color: #fff;
+
+.btn:hover, .btn:focus, .btn.active {
 -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
@@ -88,4 +88,11 @@ box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 transition: all 250ms ease-in-out 0s;
 
 
+
+}
+#st{
+	border:2px solid #456879;
+	border-radius:10px;
+	height: 22px;
+	width: 230px;
 }
