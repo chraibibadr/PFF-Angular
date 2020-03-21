@@ -17,7 +17,7 @@ const routes: Routes = [
   {path:"",redirectTo:'home',pathMatch:'full'},
   {path:"home",component:HomeComponent},
   {path:'formateur',component:FormateurComponent},
-  {path:'task',component:TaskComponent},
+  {path:'contact',component:TaskComponent},
   {path:'login',component:LoginComponent},
   {path:'guest-home',component:GuestHomeComponent},
 
