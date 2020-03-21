@@ -16,12 +16,21 @@ li{
 /*
     Header
 */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
 .main-header{
     padding: 1%;
 }
 .logo{
     float: left;
-    width: 9%;
+    width: 11%;
+}
+.logo img{
+    width: 100%;
 }
 .logo a{
     font-family: sans-serif;
@@ -40,13 +49,13 @@ li{
 .prj-nav{
     float: left;
     margin-left: 5%;
-    width: 85%;
+    width: 84%;
 }
 .prj-nav nav{
     float: left;
 }
 nav ul li a{
-    color: #dfdaed;
+    color: #fff;
     font-size: 19px;
     font-family: sans-serif;
     /*text-transform: uppercase;*/
@@ -83,7 +92,7 @@ nav ul li a.nav-link.prj-login:hover{
     margin-top: .5rem;
 }
 .prj-nav .btn-login .prj-depos {
-    color: #dfdaed;
+    color: #fff;
     font-size: 19px;
     font-family: sans-serif;
     padding: 0;
@@ -122,5 +131,23 @@ nav ul li a.nav-link.prj-login:hover{
     }
     .resp-nav ul li .prj-login{
         display: block;
+    }
+    button.navbar-toggler{
+        top : -37px;
+    }
+}
+@media (max-width:760px){
+    .logo{
+        width: 20%;
+    }
+}
+@media (max-width:480px){
+    .logo{
+        width: 20%;
+    }
+}
+@media (max-width:360px){
+    .logo{
+        width: 27%;
     }
 }
