@@ -1,0 +1,73 @@
+.btn1{
+    width: 150px;
+    height: 70px;
+    background: none;
+    border: 4px solid;
+    color: green;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 18px;
+    position: relative;
+    margin-left: 30px;
+    top:20%;
+    left: 10%;
+  }
+  .btn2{
+    width: 150px;
+    height: 70px;
+    background: none;
+    border: 4px solid;
+    color: red;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 18px;
+    position: relative;
+    margin-left: 30px;
+    top:20%;
+    left: 10%;
+  }
+  .btn3{
+    width: 150px;
+    height: 70px;
+    background: none;
+    border: 4px solid;
+    color: orange;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 18px;
+    position: relative;
+    margin-left: 30px;
+    top:20%;
+    left: 10%;
+  }
+  
+  .btn1::before,.btn1::after,.btn2::before,.btn2::after,.btn3::before,.btn3::after{
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 4px;
+    background: #353b48;
+    transform: skewX(50deg);
+    transition: .4s linear;
+  }
+  
+  .btn1::before,.btn2::before,.btn3::before{
+    top: -4px;
+    left: 10%;
+  }
+  
+  .btn1::after,.btn2::after,.btn3::after{
+    bottom: -4px;
+    right: 10%;
+  }
+  
+  .btn1:hover::before,.btn2:hover::before,.btn3:hover::before{
+    left: 80%;
+  }
+  
+  .btn1:hover::after,.btn2:hover::after,.btn3:hover::after{
+    right: 80%;
+  }

@@ -1,0 +1,76 @@
+<div class="container"  style="margin-top: 100px;">
+    <h1 class='text-center'>Les Informations des Formateurs Vacataires à ISTA NTIC SYBA </h1>
+</div>
+
+<div class="container">
+    <div class="row">
+          <div class="col-lg-8 col-md-10 col-sm-12 mx-auto mt-4 mb-4 ">
+                <div class="card card-header bg-success text-center text-white">
+                      <h3 class="card-title">Informations Personnels de Vacataire</h3>
+                </div>
+          <form [class.was-validated]="touched" #formateur="ngForm" (ngSubmit)="next(formateur)">
+                <div class="card card-body">
+                            <div class="form-group">
+                                  <div class="row">
+                                        <div class="col">
+                                              <label for="idCin">CIN :</label>
+                                              <input name="cin" [(ngModel)]="cin" type="text" class="form-control" id="idCin" placeholder="Votre CIN " required >        
+                                        </div>
+                                        <div class="col">
+                                              <label for="idNom">Nom :</label>
+                                              <input name="nom" [(ngModel)]="nom" type="text" class="form-control" id="idNom" placeholder="Votre Nom " required >        
+                                        </div>
+                                        <div class="col">
+                                              <label for="idPrenom">Prénom :</label>
+                                              <input name="prenom" [(ngModel)]="prenom" type="text" class="form-control" id="idPrenom" placeholder="Votre Prénom" required >        
+                                        </div>
+                                  </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                  <label for="idDateN">Date de Naissance</label>
+                                  <input name="dateN" [(ngModel)]="dateN" type="date" class="form-control" id="idDateN" placeholder="Votre Date de Naissance " required>
+                              </div>
+                              <div class="form-group">
+                                  <label for="idEmail">Email</label>
+                                  <input name="email" [(ngModel)]="email" type="email" class="form-control" id="idEmail" placeholder="Votre Email" required>
+                              </div>
+                              <div class="form-group">
+                                  <label for="idTelephone">Téléphone</label>
+                                  <input name="telephone" [(ngModel)]="telephone" type="number" class="form-control" id="idTelephone" placeholder="Votre Numéro de téléphone" required >
+                              </div>
+                              <div class="form-group">
+                                  <label for="idRib">Rib</label>
+                                  <input name="rib" [(ngModel)]="rib" type="number" class="form-control" id="idRib" placeholder="Votre releve d'identite bancaire" required >
+                              </div>
+                            <div class="form-group">
+                                <label for="idCv">Cv :</label>
+                                <input name="cv" [(ngModel)]="cv" type="text" class="form-control" id="idcv" placeholder=" votre cv " required >        
+                          </div>
+                          <div class="form-group">
+                                <label for="idDiplome">Diplome :</label>
+                                <input name="Diplome" [(ngModel)]="Diplome" type="text" class="form-control" id="idDiplome" placeholder="votre Diplome " required >       
+                          </div>
+                          <div class="form-group">
+                                <label for="idAt">Attestation de Travail :</label>
+                                <input name="AttestationT" [(ngModel)]="AttestationT" type="text" class="form-control" id="idAttestationT" placeholder=" votre Attestation de Travail" required >       
+                          </div>
+                          <div class="form-group">
+                                <label for="idAs">Attestation de Salaire :</label>
+                                <input name="AttestationS" [(ngModel)]="AttestationS" type="text" class="form-control" id="idAttestationS" placeholder=" Votre type d'Autorisation votre Attestation  de Salaire " required >       
+                          </div>
+                          <div class="form-group">
+                            <label for="idTa">Type d'Autorisation :</label>
+                            <input name="Autorisation" [(ngModel)]="Autorisation" type="text" class="form-control" id="idAutorisation" placeholder=" Votre type d'Autorisation " required >       
+                         </div>
+                          
+                          <div class="app-form-group buttons">
+                            <button class="btn1">VALIDER</button>
+                            <button class="btn2">SUPPRIMER</button>
+                            <button class="btn3">PROBLEM</button>
+                          </div>
+                      </div>
+                </form>
+          </div>
+    </div>
+</div>

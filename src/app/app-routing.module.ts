@@ -11,6 +11,7 @@ import { AdminHomeComponent } from './Components/admin-home/admin-home.component
 import { GuestHomeComponent } from './Components/guest-home/guest-home.component';
 import { NouveauDossierComponent } from './Components/admin-home/nouveau-dossier/nouveau-dossier.component';
 import { ConsultVacatureComponent } from './Components/admin-home/consult-vacature/consult-vacature.component';
+import { DelailsDossierComponent } from './Components/admin-home/delails-dossier/delails-dossier.component';
 
 const routes: Routes = [
 
@@ -29,7 +30,8 @@ const routes: Routes = [
   //**************************MAINE************************************
   {path:'admin-home',component:AdminHomeComponent},
   {path:'nouveau-dossier',component:NouveauDossierComponent},
-  {path:'consult-vacature',component:ConsultVacatureComponent}
+  {path:'consult-vacature',component:ConsultVacatureComponent},
+  {path:'delails-dossier',component:DelailsDossierComponent},
   
 ];
 @NgModule({

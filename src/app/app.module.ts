@@ -18,6 +18,7 @@ import { GuestHomeComponent } from './Components/guest-home/guest-home.component
 import { NouveauDossierComponent } from './Components/admin-home/nouveau-dossier/nouveau-dossier.component';
 import { ConsultVacatureComponent } from './Components/admin-home/consult-vacature/consult-vacature.component';
 import { ContactComponent } from './Components/contact/contact.component';
+import { DelailsDossierComponent } from './Components/admin-home/delails-dossier/delails-dossier.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { ContactComponent } from './Components/contact/contact.component';
     GuestHomeComponent,
     NouveauDossierComponent,
     ConsultVacatureComponent,
-    ContactComponent
+    ContactComponent,
+    DelailsDossierComponent
   ],
   imports: [
     BrowserModule,
