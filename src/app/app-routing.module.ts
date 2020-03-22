@@ -11,12 +11,9 @@ import { AdminHomeComponent } from './Components/admin-home/admin-home.component
 import { GuestHomeComponent } from './Components/guest-home/guest-home.component';
 import { NouveauDossierComponent } from './Components/admin-home/nouveau-dossier/nouveau-dossier.component';
 import { ConsultVacatureComponent } from './Components/admin-home/consult-vacature/consult-vacature.component';
-<<<<<<< HEAD
 import { DelailsDossierComponent } from './Components/admin-home/delails-dossier/delails-dossier.component';
-=======
 import { TextBookComponent } from './Components/formateur/text-book/text-book.component';
 import { GestionDossierComponent } from './Components/guest-home/gestion-dossier/gestion-dossier.component';
->>>>>>> 46d4778264279b516a396541d33f483d86e9ba7a
 
 const routes: Routes = [
 
@@ -40,13 +37,10 @@ const routes: Routes = [
   {path:'admin-home',component:AdminHomeComponent},
   {path:'nouveau-dossier',component:NouveauDossierComponent},
   {path:'consult-vacature',component:ConsultVacatureComponent},
-<<<<<<< HEAD
   {path:'delails-dossier',component:DelailsDossierComponent},
-=======
 
   //**************************  Ayoub  ************************************
   {path:'cahier-text',component:TextBookComponent},
->>>>>>> 46d4778264279b516a396541d33f483d86e9ba7a
   
 ];
 @NgModule({
