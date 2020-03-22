@@ -18,7 +18,12 @@ import { GuestHomeComponent } from './Components/guest-home/guest-home.component
 import { NouveauDossierComponent } from './Components/admin-home/nouveau-dossier/nouveau-dossier.component';
 import { ConsultVacatureComponent } from './Components/admin-home/consult-vacature/consult-vacature.component';
 import { ContactComponent } from './Components/contact/contact.component';
+<<<<<<< HEAD
 import { DelailsDossierComponent } from './Components/admin-home/delails-dossier/delails-dossier.component';
+=======
+import { TextBookComponent } from './Components/formateur/text-book/text-book.component';
+import { GestionDossierComponent } from './Components/guest-home/gestion-dossier/gestion-dossier.component';
+>>>>>>> 46d4778264279b516a396541d33f483d86e9ba7a
 
 @NgModule({
   declarations: [
@@ -37,7 +42,12 @@ import { DelailsDossierComponent } from './Components/admin-home/delails-dossier
     NouveauDossierComponent,
     ConsultVacatureComponent,
     ContactComponent,
+<<<<<<< HEAD
     DelailsDossierComponent
+=======
+    TextBookComponent,
+    GestionDossierComponent
+>>>>>>> 46d4778264279b516a396541d33f483d86e9ba7a
   ],
   imports: [
     BrowserModule,

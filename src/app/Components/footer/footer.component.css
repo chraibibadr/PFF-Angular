@@ -47,17 +47,20 @@ footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255
 .widget-title.text-center span,.widget-title.text-center span::after {margin-left: auto;margin-right:auto;left: 0;right: 0;}
 .widget .badge{	float: right;	background: #7f7f7f;}
 
-#yt{background: url("https://img.icons8.com/color/30/000000/youtube-play.png") no-repeat;}
+#yt{background: url("https://img.icons8.com/color/33/000000/youtube-play.png") no-repeat;}
 #yt:hover{ background: url("https://img.icons8.com/color/28/000000/youtube-play.png") no-repeat;}
 
-#fb{background: url("https://img.icons8.com/color/30/000000/facebook-circled.png") no-repeat;}
+#fb{background: url("https://img.icons8.com/color/33/000000/facebook-circled.png") no-repeat;}
 #fb:hover{ background: url("https://img.icons8.com/color/28/000000/facebook-circled.png") no-repeat;}
 
-#tw{background: url("https://img.icons8.com/color/30/000000/twitter.png") no-repeat;}
+#tw{background: url("https://img.icons8.com/color/33/000000/twitter.png") no-repeat;}
 #tw:hover{ background: url("https://img.icons8.com/color/28/000000/twitter.png") no-repeat;}
 
-#in{background: url("https://img.icons8.com/color/30/000000/instagram-new.png") no-repeat;}
+#in{background: url("https://img.icons8.com/color/33/000000/instagram-new.png") no-repeat;}
 #in:hover{ background: url("https://img.icons8.com/color/28/000000/instagram-new.png") no-repeat;}
+
+#ws{background: url("https://img.icons8.com/ultraviolet/31/000000/domain.png") no-repeat;}
+#ws:hover{ background: url("https://img.icons8.com/ultraviolet/28/000000/domain.png") no-repeat;}
 
 .typo-light h1, 
 .typo-light h2, 
@@ -73,7 +76,7 @@ footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255
 ul.social-footer2 {	margin: 0;padding: 0;	width: auto;}
 ul.social-footer2 li {display: inline-block;padding: 0;}
 ul.social-footer2 li a:hover {background-color:none;}
-ul.social-footer2 li a {display: block;	height:30px;width: 30px;text-align: center; margin-right: 15px;}
+ul.social-footer2 li a {display: block;	height:30px;width: 30px;text-align: center; margin-right: 20px;}
 
 .btn:hover, .btn:focus, .btn.active {
 -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
@@ -95,4 +98,15 @@ transition: all 250ms ease-in-out 0s;
 	border-radius:10px;
 	height: 22px;
 	width: 230px;
+}
+
+.lien
+{
+	text-decoration: unset;
+	color: white;
+}
+
+.lien:hover
+{
+	color: darkorange;
 }

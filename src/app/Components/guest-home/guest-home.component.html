@@ -2,14 +2,14 @@
       <div class="row">
             <div class="col-lg-8 mx-auto">
                   <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
-                        <button type="button" class="btn btn-secondary" >Nouveaux Dossier</button>
-                        <button type="button" class="btn btn-secondary" >Consulter Vacataire</button>
-                        <button type="button" class="btn btn-secondary" >Profile</button>
+                        <button type="button" class="btn btn-secondary active focus" routerLink="/guest-home">Home</button>
+                        <button type="button" class="btn btn-secondary" routerLink="/guest/gestion-dossier">Gestion Dossier</button>
                   </div>
             </div>
       </div>
-</div>
-<div class="container">
+  </div>
+  
+     <div class="container py-2">
     <div class="row">
           <div class="col-lg-8 mx-auto">
             <div class="alert alert-dark div"  role="alert">
@@ -21,4 +21,4 @@
                 <router-outlet></router-outlet>
           </div>
     </div>
-</div>
+</div> 
