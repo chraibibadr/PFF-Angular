@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './Components/home/home.component';
 import { FormsModule } from '@angular/forms';
 import { FormateurComponent } from './Components/formateur/formateur.component';
-import { TaskComponent } from './Components/task/task.component';
 import { LoginComponent } from './Components/login/login.component';
 import { DeposerComponent } from './Components/deposer/deposer.component';
 import { HeaderComponent } from './Components/header/header.component';
@@ -18,13 +17,13 @@ import { GenerateLoginPassComponent } from './Components/deposer/generate-login-
 import { GuestHomeComponent } from './Components/guest-home/guest-home.component';
 import { NouveauDossierComponent } from './Components/admin-home/nouveau-dossier/nouveau-dossier.component';
 import { ConsultVacatureComponent } from './Components/admin-home/consult-vacature/consult-vacature.component';
+import { ContactComponent } from './Components/contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     FormateurComponent,
-    TaskComponent,
     LoginComponent,
     DeposerComponent,
     HeaderComponent,
@@ -35,7 +34,8 @@ import { ConsultVacatureComponent } from './Components/admin-home/consult-vacatu
     GenerateLoginPassComponent,
     GuestHomeComponent,
     NouveauDossierComponent,
-    ConsultVacatureComponent
+    ConsultVacatureComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
