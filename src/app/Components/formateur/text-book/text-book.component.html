@@ -1,0 +1,52 @@
+<div class="text-book">
+    <div class="container">
+        <h1> Cahier De Text </h1>
+        <div class="btn-save text-right">
+            <button type="button" class="btn btn-success" disabled>
+                <i class="fas fa-save"></i>
+                Sauvegarder
+            </button>
+        </div>
+        <div class="text-book__infos">
+            <!-- fixe header title-->
+            <div class="row tb-row__header">
+                <div class="col tb-col__header">Date</div>
+                <div class="col tb-col__header">Horaire</div>
+                <div class="col tb-col__header">Groupe</div>
+                <div class="col tb-col__header">Module</div>
+                <div class="col tb-col__header">Durée</div>
+            </div>
+            <!-- dynamique columns -->
+            <div class="row">
+                <div class="col">
+                    <input type="date" id="date-seance" name="seance-date">
+                </div>
+                <div class="col"> 
+                    <label for="time-start">Début de session:</label>
+                    <input type="time" id="time-start" name="start-time" min="08:30" max="17:30" required>
+
+                    <label for="time-start">Fin de session :</label>
+                    <input type="time" id="time-end" name="end-time"min="09:30" max="18:30" required>
+                </div>
+                <div class="col">
+                    <input type="text" id="txt-group" name="group-txt" placeholder="abbr de Group" required>
+                </div>
+                <div class="col">
+                    <input type="text" id="txt-module" name="module-txt" placeholder="abbr de Module" required>
+                </div>
+                <div class="col">
+                    <input type="text" id="nbr-heure" name="nbr-heure" value="2" disabled> 
+                </div>
+                <div class="col-12">
+                    <textarea id="txt-description" placeholder="Description de la seance" rows="5"></textarea>
+                </div>
+            </div>
+        </div>   
+        <div class="btn-add text-right">
+            <button class="btn btn-danger" type="button">
+                    Ajouter
+                    <i class="fas fa-plus"></i>
+            </button>
+        </div>     
+    </div>
+</div>
