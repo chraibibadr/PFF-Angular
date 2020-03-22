@@ -19,6 +19,7 @@ import { NouveauDossierComponent } from './Components/admin-home/nouveau-dossier
 import { ConsultVacatureComponent } from './Components/admin-home/consult-vacature/consult-vacature.component';
 import { ContactComponent } from './Components/contact/contact.component';
 import { TextBookComponent } from './Components/formateur/text-book/text-book.component';
+import { GestionDossierComponent } from './Components/guest-home/gestion-dossier/gestion-dossier.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { TextBookComponent } from './Components/formateur/text-book/text-book.co
     NouveauDossierComponent,
     ConsultVacatureComponent,
     ContactComponent,
-    TextBookComponent
+    TextBookComponent,
+    GestionDossierComponent
   ],
   imports: [
     BrowserModule,

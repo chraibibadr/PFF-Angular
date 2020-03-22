@@ -1,0 +1,71 @@
+<p>gestion-dossier works!</p>
+<div class="container" style="margin-top: 100px;">
+    <div class="row">
+          <div class="col-lg-8 mx-auto">
+                <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                      <button type="button" class="btn btn-secondary" routerLink="/guest-home">Home</button>
+                      <button type="button" class="btn btn-secondary active focus" routerLink="/guest/gestion-dossier">Gestion Dossier</button>
+                </div>
+          </div>
+    </div>
+</div>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-lg-7 mx-auto">
+            <h2 class="text-center font-weight-light">Votre Dossier</h2>
+        </div>
+        <div class="col-lg-7 mx-auto">
+            <div class="alert alert-info alert-dismissable"> <a class="panel-close close" data-dismiss="alert">x</a>Vous pouvez modifier votre dossier ou le supprimer .</div>
+        </div>
+
+        <form class="col-lg-8 mx-auto">                       
+            <label class="col-lg-1 col-form-label form-control-label">CIN</label>            
+            <input class="form-control" type="text" value="EE145458" placeholder="Votre CIN"/> 
+
+            <label class="col-lg-1 col-form-label form-control-label">Prenom</label>            
+            <input class="form-control" type="text" value="Mohammed Bader" placeholder="Votre Prenom" /> 
+
+            <label class="col-lg-1 col-form-label form-control-label">Nom</label>           
+            <input class="form-control" type="text" value="CHRAIBI" placeholder="Votre Nom"/>      
+
+            <label class="col-lg-1 col-form-label form-control-label">Address</label>            
+            <input class="form-control" type="text" value="Marrakech SYBA N°4" placeholder="Votre Adresse" /> 
+
+            <label class="col-lg-1 col-form-label form-control-label">Email</label>            
+            <input class="form-control" type="email" value="email@gmail.com" placeholder="Votre Email"/>   
+
+            <label class="col-lg-1 col-form-label form-control-label">Tel</label>
+            <input class="form-control" type="text" value="0654859857" placeholder="Votre Telephone" />
+
+            <label class="col-lg-1 col-form-label form-control-label">RIB</label>
+            <input class="form-control" type="text" value="14585475988564754" placeholder="Votre RIB"/>
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <br>
+                <h3>Vos Diplome</h3>
+                <!-- Test des images qui representes les diplomes deposer-->
+                <img src="../../../../assets/Images/ista.jpg" class=" img-fluid img-thumbnail rounded m-2" style="width: 400px;height: 300px;" alt="diplome" />
+                <img src="../../../../assets/Images/ista.jpg" class=" img-fluid img-thumbnail rounded m-2" style="width: 400px;height: 300px;" alt="diplome" />
+    <br>
+                <h6 class="my-4">Ajouter un Diplome</h6>
+                <div class="input-group px-xl-4">
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="inputGroupFile02">
+                        <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">Choisir un fichier</label>
+                    </div>
+                    <div class="input-group-append">
+                        <button class="btn btn-secondary"><i class="fa fa-upload"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <input type="reset" class="btn btn-outline-secondary btn-block mt-5" value="Annuler" />
+        <input type="button" class="btn btn-primary btn-block" value="Sauvgarder" />
+        <input type="button" class="btn btn-danger btn-block" value="Supprimer" />
+    </form>
+    </div>
+
+</div> 
