@@ -11,6 +11,7 @@ import { AdminHomeComponent } from './Components/admin-home/admin-home.component
 import { GuestHomeComponent } from './Components/guest-home/guest-home.component';
 import { NouveauDossierComponent } from './Components/admin-home/nouveau-dossier/nouveau-dossier.component';
 import { ConsultVacatureComponent } from './Components/admin-home/consult-vacature/consult-vacature.component';
+import { GestionDossierComponent } from './Components/guest-home/gestion-dossier/gestion-dossier.component';
 
 const routes: Routes = [
 
@@ -18,8 +19,11 @@ const routes: Routes = [
   {path:"home",component:HomeComponent},
   {path:'formateur',component:FormateurComponent},
   {path:'contact',component:ContactComponent},
+
+  //******************************* Bader's Routes *************************/
   {path:'login',component:LoginComponent},
   {path:'guest-home',component:GuestHomeComponent},
+  {path:'guest/gestion-dossier',component:GestionDossierComponent},
 
   //***********************Routes Li dar Bissi***********************************
   { path:'deposer',component:DeposerComponent },
